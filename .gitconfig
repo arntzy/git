@@ -1,10 +1,8 @@
 [user]
-    name = Aaron Arntz
+  name = Aaron Arntz
 	email = aarntz@gmail.com
 [github]
-    user = arntzy
-[credential]
-	helper = osxkeychain
+  user = arntzy
 [color]
 	ui = true
 [core]
@@ -15,9 +13,3 @@
 	ci = commit
 	br = branch
 	logg = log --graph --decorate --oneline --abbrev-commit --all
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
