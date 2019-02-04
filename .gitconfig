@@ -6,10 +6,12 @@
 [color]
 	ui = true
 [core]
-	excludesfile = ~/.gitignore_global
+	excludesfile = ~/.gitignore
 [alias]
 	st = status
 	co = checkout
 	ci = commit
 	br = branch
 	logg = log --graph --decorate --oneline --abbrev-commit --all
+[credential]
+	helper = /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
